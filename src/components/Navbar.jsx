@@ -8,34 +8,39 @@ const Navbar = () => {
   const router = useRouter();
 
   const links = [
-  {
-    title : "Home",
-    path  : '/'
-  },
-  {
-    title  : "About",
-    path   : "/about"
-  },
-  {
-    title  : 'Service',
-    path   : '/services'
-  },
-  {
-    title  : 'Contact',
-    path   : '/contacts'
-  },
-  {
-    title  : 'Blog',
-    path   : '/blogs'
-  },
-  {
-    title : 'Categories',
-    path  : '/categories'
-  },
-  {
-    title : 'Post',
-    path  : '/posts'
-  }
+      {
+        title : 'Meals',
+        path  : '/meals'
+      }
+    // {
+  //   title : "Home",
+  //   path  : '/'
+  // },
+  // {
+  //   title  : "About",
+  //   path   : "/about"
+  // },
+  // {
+  //   title  : 'Service',
+  //   path   : '/services'
+  // },
+  // {
+  //   title  : 'Contact',
+  //   path   : '/contacts'
+  // },
+  // {
+  //   title  : 'Blog',
+  //   path   : '/blogs'
+  // },
+  // {
+  //   title : 'Categories',
+  //   path  : '/categories'
+  // },
+  ,
+   {
+     title : 'Post',
+     path  : '/posts'
+   }
 ];
 
 const handler = () =>{
