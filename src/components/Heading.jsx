@@ -2,7 +2,7 @@
 const Heading = () => {
   return (
     <div>
-      <h1>This is Heading</h1>
+      <h6>This is Heading</h6>
     </div>
   );
 };
